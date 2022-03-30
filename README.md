@@ -25,3 +25,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Comandos de desenvolvimento do projeto
+
+```sh
+npm install --save-dev prettier
+npm install --save-dev tslint-config-prettier
+npm install --save-dev tslint-plugin-prettier
+npm i bootstrap font-awesome
+
+ng generate module home --routing
+ng generate component home
+ng g c home/login
+ng g m autenticacao
+ng g s autenticacao/autenticacao
+ng g m animais --routing
+ng g c animais/lista-animais
+
+```
+
+# Executar o projeto
+
+```sh
+ng serve --o
+
+```
